@@ -8,7 +8,7 @@ namespace PoranMedicalProject.Models.DAL
     {
       
 
-        // DbSets for your entities
+      
         public DbSet<ApplicationUser> ApplicationUsers { get; set; }
         public DbSet<Patient> Patients { get; set; }
         public DbSet<MedicalReport> MedicalReports { get; set; }
